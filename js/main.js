@@ -15,7 +15,8 @@ var row = document.querySelector('#row');
 
 async function fetchData(location='egypt'){
     
-    var response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=163789acd84042559eb62903250911&q=${location}&days=3&aqi=no&alerts=no`);
+    var response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=163789acd84042559eb62903250911&q=${location}&days=3&aqi=no&alerts=no`);
+    
     var data = await response.json();
 
     var currentDay={
@@ -115,5 +116,5 @@ function getThirdDay(){
 
 inputSearch.addEventListener('input',function(){
     fetchData(inputSearch.value);
-})
+});
 
