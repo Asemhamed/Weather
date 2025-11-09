@@ -9,9 +9,9 @@
 var inputSearch = document.querySelector('#Search');
 var row = document.querySelector('#row');
 
-(function(){
+
     fetchData();
-})();
+
 
 async function fetchData(location='egypt'){
     
