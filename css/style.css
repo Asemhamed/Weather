@@ -179,10 +179,12 @@ margin: 10px 0 ;
 .card-body.dark h4 span{
     position: relative;
     top: -8px;
+    font-size: 11px;
 }
 .card-body.dark h3 span{
     position: relative;
     top: -8px;
+    font-size: 11px;
 }
 .header-bg{
     background-color: var(--bg-header-card);
@@ -196,6 +198,7 @@ margin: 10px 0 ;
 .card-bg h3 span,.card-bg h4 span{
     position: relative;
     top: -10px;
+    font-size: 11px;
 }
 .icon-f{
     background-color: #1E202B;
